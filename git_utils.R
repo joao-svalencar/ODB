@@ -1,4 +1,4 @@
-setwd() #tem que setar antes de abrir o terminal
+setwd() #tem que setar antes de abrir o term
 
 git clone "link sem aspas" #clona a bagaça
 
@@ -16,3 +16,5 @@ git commit -m "msg do commit"
 
 # dá o push
 git push
+
+#mostrando pra Bea também
