@@ -20,6 +20,7 @@ git clone "link sem aspas" #clona a bagaça
 # compara os repos (quem foi/quem num foi)
 git status
 
+
 #compara os arquivos
 git diff
 # stage: preparando pra dar commit
