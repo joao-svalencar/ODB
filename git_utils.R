@@ -1,3 +1,12 @@
+#Pacotes e comandos iniciais.
+
+packages <- c("devtools", "rmarkdown", "here", "usethis")
+lapply(packages, function(x) install.packages(x))
+
+library(usethis)
+use_git_config(user.name = "joao-svalencar", user.email = "joaopaulo.valencar@usp.br")
+
+#Comandos para usar no terminal do computador.
 setwd() #tem que setar antes de abrir o term
 
 git clone "link sem aspas" #clona a bagaça
