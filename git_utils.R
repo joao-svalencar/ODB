@@ -14,7 +14,10 @@ git add . #seleciona todos os arquivos da pasta
 # commit: preparando pra dar o push
 git commit -m "msg do commit"
 
-# dá o push
+# dá o push (manda da maquina para o repositorio)
 git push
+
+# dá o pull (traz do repositorio para a maquina)
+git pull
 
 #mostrando pra Bea também
