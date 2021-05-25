@@ -2,6 +2,7 @@
 
 https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html #gitlab é tipo um github. o site tem dicas sobre usar linha de comando
 https://happygitwithr.com
+https://www.britishecologicalsociety.org/wp-content/uploads/2017/12/guide-to-reproducible-code.pdf
 
 #Pacotes e comandos iniciais.
 
