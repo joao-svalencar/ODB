@@ -1,3 +1,8 @@
+#Sites para auxiliar:
+
+https://docs.gitlab.com/ee/gitlab-basics/start-using-git.html #gitlab é tipo um github. o site tem dicas sobre usar linha de comando
+https://happygitwithr.com
+
 #Pacotes e comandos iniciais.
 
 packages <- c("devtools", "rmarkdown", "here", "usethis")
