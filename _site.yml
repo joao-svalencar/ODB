@@ -1,0 +1,7 @@
+name: "João Paulo dos Santos Vieira de Alencar"
+output_dir: "."
+navbar:
+  title: "JP Vieira-Alencar"
+  left:
+    - text: "Home"
+      href: index.html
