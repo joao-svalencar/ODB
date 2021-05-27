@@ -1,7 +1,5 @@
 ---
 title: "Home"
-author: "João Paulo"
-date: "5/27/2021"
 output: html_document
 ---
 
