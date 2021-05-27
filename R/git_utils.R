@@ -36,4 +36,19 @@ git push
 # dá o pull (traz do repositorio para a maquina)
 git pull
 
-#mostrando pra Bea também
+# checa as ultimas mudanças
+git reflog
+# you will see a list of every thing you've
+# done in git, across all branches!
+# each one has an index HEAD@{index}
+# find the one before you broke everything
+
+# git time machine
+git reset HEAD@{index}
+
+#como nomear aquivos e happy git
+
+
+# Creating random data ----------------------------------------------------
+
+treatments <- rep(c("treat1", "treat2", "treat3", "treat4"), each = 10)
