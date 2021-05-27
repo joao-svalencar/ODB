@@ -52,3 +52,5 @@ git reset HEAD@{index}
 # Creating random data ----------------------------------------------------
 
 treatments <- rep(c("treat1", "treat2", "treat3", "treat4"), each = 10)
+
+rmarkdown::render_site()
