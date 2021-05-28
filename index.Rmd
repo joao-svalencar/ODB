@@ -5,3 +5,5 @@ output: html_document
 # New index
 
 Agora que o index e as abas estão funcionando irei criar mais uma aba para treinar design.
+
+Para acessar ao código em rmarkdown da aba Design, acesso o [repositório](https://github.com/joao-svalencar/ODB) e procure pelo arquivo design.Rmd.
