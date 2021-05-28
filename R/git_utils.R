@@ -49,6 +49,14 @@ git reset HEAD@{index}
 
 git checkout main nome_do_arqivo
 
+# Para linkar diretorio local com diretorio já criado no github (em seguida é bom usar pull)
+git remote add origin https://endereço/copiado/do/github
+
+#da onde pra onde? origin: maquina/ main: remoto
+git push -u origin main #da erro com o main ainda, usar:
+
+git push -u origin master
+
 # Creating random data ----------------------------------------------------
 
 rmarkdown::render_site()
