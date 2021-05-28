@@ -93,9 +93,11 @@ Procurar exemplo.
 
 #### Tabelas:
 
-| cols | col1 | col2 | col3 | col4 | col5 |            
-| :----: | :----:| :----: | :----: | :----: | :----: |
-| letras | a | b | c | d | e |
-| números | 1 | 2 | 3 | 4 | 5 |
+| cols  | col1  | col2 |  col3 |
+|:-:|:-:|:-:|:-:|
+| letras | a  | b | c |
+| numeros | 1 | 2 | 3 |
+| alfanum | a1  | b2 |  c3  |
+||
 
 # To be continued...
