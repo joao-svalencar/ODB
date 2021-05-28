@@ -46,8 +46,8 @@ git reflog
 # git time machine
 git reset HEAD@{index}
 
-#como nomear aquivos e happy git
 
+git checkout main nome_do_arqivo
 
 # Creating random data ----------------------------------------------------
 
