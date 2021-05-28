@@ -93,6 +93,9 @@ Procurar exemplo.
 
 #### Tabelas:
 
-Procurar estrutura.
+| cols | col1 | col2 | col3 | col4 | col5 |            
+| :----: | :----:| :----: | :----: | :----: | :----: |
+| letras | a | b | c | d | e |
+| números | 1 | 2 | 3 | 4 | 5 |
 
 # To be continued...
