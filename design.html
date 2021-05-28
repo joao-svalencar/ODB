@@ -11,7 +11,7 @@
 
 
 
-<title>design</title>
+<title>Design: Otimizando a aparência do seu site</title>
 
 <script src="site_libs/header-attrs-2.8/header-attrs.js"></script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
@@ -262,11 +262,14 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">design</h1>
+<h1 class="title toc-ignore">Design: Otimizando a aparência do seu site</h1>
 
 </div>
 
 
+<div id="organizando-seções-e-subseções" class="section level1">
+<h1>Organizando seções e subseções:</h1>
+</div>
 <div id="heading-1" class="section level1">
 <h1>Heading 1</h1>
 <div id="heading-2" class="section level2">
@@ -277,45 +280,90 @@ $(document).ready(function () {
 <h4>Heading 4</h4>
 <div id="heading-5" class="section level5">
 <h5>Heading 5</h5>
+</div>
+</div>
+<div id="trabalhando-com-listas-e-chunks" class="section level4">
+<h4>Trabalhando com listas e chunks:</h4>
+<div id="criação-de-lista-com-chunks" class="section level5">
+<h5>Criação de lista com chunks:</h5>
 <ol style="list-style-type: decimal">
-<li>Item dois da lista (eval=TRUE, echo=TRUE)</li>
+<li>Item um. Argumentos do chunk: (eval=TRUE, echo=TRUE)</li>
 </ol>
 <pre class="r"><code>plot(1:10)</code></pre>
 <p><img src="design_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
 <ol start="2" style="list-style-type: decimal">
-<li>Criação de lista com chunks (eval=FALSE, echo=TRUE)</li>
+<li>item dois. Argumentos do chunk: (eval=FALSE, echo=TRUE)</li>
 </ol>
 <pre class="r"><code>r_code &lt;- c(&quot;Random&quot;, &quot;.R&quot;, &quot;Code&quot;)</code></pre>
 <ol start="3" style="list-style-type: decimal">
-<li>Item três da lista (eval=TRUE, echo=FALSE)</li>
+<li>Item três. Argumentos do chunk: (eval=TRUE, echo=FALSE)</li>
 </ol>
 <pre><code>## [1] 2</code></pre>
 <ol start="4" style="list-style-type: decimal">
-<li>Item quatro da list (eval=FALSE, echo=FALSE)</li>
+<li>Item quatro. Argumentos do chunk: (eval=FALSE, echo=FALSE)</li>
 </ol>
-<p>Para treinar o texto em <em>Itálico</em></p>
-<p>Para treinar o texto em <strong>Negrito</strong></p>
-<p>Apresentando um destaque para nome de função: `mapar``</p>
-<p>Apresentando umd estaque para nome de pacote: `{prabclut}``</p>
-<p>Links para referências externas: <a href="https://joao-svalencar.github.io/ODB/">Link para este site</a></p>
-<p>Badges:</p>
-<p>DOI, gerado pelo Zenodo: <a href="https://zenodo.org/badge/latestdoi/370512988"><img src="https://zenodo.org/badge/370512988.svg" alt="DOI" /></a></p>
-<p>Outras badges podem ser geradas online, basta buscar: Aparentemente o pacote <code>{badgecreatr}</code> tem funções variadas para esse propósito:</p>
-<p>Com um tipo de simbolo para lista:</p>
+</div>
+<div id="edição-básica-de-texto" class="section level5">
+<h5>Edição básica de texto:</h5>
+<ul>
+<li><p>Para treinar o texto em <em>Itálico</em></p></li>
+<li><p>Para treinar o texto em <strong>Negrito</strong></p></li>
+<li><p>Apresentando um destaque para nome de função: <code>mapar</code></p></li>
+<li><p>Apresentando umd estaque para nome de pacote: <code>{prabclut}</code></p></li>
+</ul>
+</div>
+</div>
+<div id="links-para-referências-externas" class="section level4">
+<h4>Links para referências externas:</h4>
+<p><a href="https://joao-svalencar.github.io/ODB/">Link para este site</a></p>
+</div>
+<div id="badges" class="section level4">
+<h4>Badges:</h4>
+<p>Badge de DOI gerado pelo Zenodo:</p>
+<p><a href="https://zenodo.org/badge/latestdoi/370512988"><img src="https://zenodo.org/badge/370512988.svg" alt="DOI" /></a></p>
+<div id="outras-badges-podem-ser-geradas-online-basta-buscar" class="section level5">
+<h5>Outras badges podem ser geradas online, basta buscar:</h5>
+<p>Aparentemente o pacote <code>{badgecreatr}</code> tem funções variadas para esse propósito:</p>
+</div>
+</div>
+<div id="testando-símbolos-diferentes-para-listas-na-verdade-formas-diferentes-de-apresentar-para-o-.rmd" class="section level4">
+<h4>Testando símbolos diferentes para listas (na verdade, formas diferentes de apresentar para o .rmd:</h4>
+<div id="com-um-tipo-de-simbolo-para-lista-pesquisar-outras-opções" class="section level5">
+<h5>Com um tipo de simbolo (*) para lista (pesquisar outras opções):</h5>
 <ul>
 <li><code>badgeplacer</code> é tida como a principal para adicionar badges ao README.md</li>
 </ul>
-<p>Com outro tipo de simbolo para lista: - <code>badgeplacer</code> é tida como a principal para adicionar badges ao README.md</p>
-<p>Podemos adicionar imagens com linguagem HTML ou com uma linguagem própria do rmarkdown:</p>
-<p>Imagem inserida como HTML:</p>
+</div>
+<div id="com-outro-tipo-de-simbolo--para-lista" class="section level5">
+<h5>Com outro tipo de simbolo (-)para lista:</h5>
+<ul>
+<li><code>badgeplacer</code> é tida como a principal para adicionar badges ao README.md</li>
+</ul>
+</div>
+</div>
+<div id="podemos-adicionar-imagens-com-linguagem-html-ou-com-uma-linguagem-própria-do-rmarkdown" class="section level4">
+<h4>Podemos adicionar imagens com linguagem HTML ou com uma linguagem própria do rmarkdown:</h4>
+<div id="imagem-inserida-como-html" class="section level5">
+<h5>Imagem inserida como HTML:</h5>
 <p>Procurar exemplo.</p>
-<p>Imagem inserida como rmarkdown:</p>
-<p><img src="jalapao.png" alt="Figura adicionada via rmarkdown: Jalapão, by Cristiano Nogueira" /> Tabelas:</p>
+</div>
+<div id="imagem-inserida-como-rmarkdown" class="section level5">
+<h5>Imagem inserida como rmarkdown:</h5>
+<div class="figure">
+<img src="jalapao.png" alt="" />
+<p class="caption">Figura adicionada via rmarkdown: Jalapão, by Cristiano Nogueira</p>
+</div>
+</div>
+</div>
+<div id="tabelas" class="section level4">
+<h4>Tabelas:</h4>
 <p>Procurar estrutura.</p>
 </div>
 </div>
 </div>
 </div>
+<div id="to-be-continued" class="section level1">
+<h1>To be continued…</h1>
 </div>
 
 

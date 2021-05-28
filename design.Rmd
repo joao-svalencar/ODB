@@ -1,7 +1,9 @@
 ---
-title: "design"
+title: "Design: Otimizando a aparência do seu site"
 output: html_document
 ---
+
+# Organizando seções e subseções:
 
 # Heading 1
 ## Heading 2
@@ -9,68 +11,88 @@ output: html_document
 #### Heading 4
 ##### Heading 5
 
-1. Item dois da lista (eval=TRUE, echo=TRUE)
+
+#### Trabalhando com listas e chunks:
+
+##### Criação de lista com chunks:
+
+1.  Item um. Argumentos do chunk: (eval=TRUE, echo=TRUE)
 
 ```{r eval=TRUE, echo=TRUE}
 plot(1:10)
 ```
 
-2. Criação de lista com chunks (eval=FALSE, echo=TRUE)
+2.  item dois. Argumentos do chunk: (eval=FALSE, echo=TRUE)
 
 ```{r eval=FALSE, echo=TRUE}
 r_code <- c("Random", ".R", "Code")
 ```
 
 
-3. Item três da lista (eval=TRUE, echo=FALSE)
+3. Item três. Argumentos do chunk: (eval=TRUE, echo=FALSE)
 
 ```{r eval= TRUE, echo=FALSE}
 1+1
 ```
 
-4. Item quatro da list (eval=FALSE, echo=FALSE)
+4. Item quatro. Argumentos do chunk: (eval=FALSE, echo=FALSE)
 
 ```{r eval=FALSE, echo=FALSE}
 1+1
 ```
 
-Para treinar o texto em *Itálico*
 
-Para treinar o texto em **Negrito**
+##### Edição básica de texto:
 
-Apresentando um destaque para nome de função: `mapar``
+- Para treinar o texto em *Itálico*
 
-Apresentando umd estaque para nome de pacote: `{prabclut}``
+- Para treinar o texto em **Negrito**
 
-Links para referências externas:
+- Apresentando um destaque para nome de função: `mapar`
+
+- Apresentando umd estaque para nome de pacote: `{prabclut}`
+
+
+#### Links para referências externas:
+
 [Link para este site](https://joao-svalencar.github.io/ODB/)
 
-Badges:
 
-DOI, gerado pelo Zenodo:
+#### Badges:
+
+Badge de DOI gerado pelo Zenodo:
+
 [![DOI](https://zenodo.org/badge/370512988.svg)](https://zenodo.org/badge/latestdoi/370512988)
 
-Outras badges podem ser geradas online, basta buscar:
+##### Outras badges podem ser geradas online, basta buscar:
+
 Aparentemente o pacote `{badgecreatr}` tem funções variadas para esse propósito: 
 
-Com um tipo de simbolo para lista:
+
+#### Testando símbolos diferentes para listas (na verdade, formas diferentes de apresentar para o .rmd:
+
+##### Com um tipo de simbolo (*) para lista (pesquisar outras opções):
 
 * `badgeplacer` é tida como a principal para adicionar badges ao README.md
 
-Com outro tipo de simbolo para lista:
+##### Com outro tipo de simbolo (-)para lista:
+
 - `badgeplacer` é tida como a principal para adicionar badges ao README.md
 
-Podemos adicionar imagens com linguagem HTML ou com uma linguagem própria do rmarkdown:
 
-Imagem inserida como HTML:
+#### Podemos adicionar imagens com linguagem HTML ou com uma linguagem própria do rmarkdown:
+
+##### Imagem inserida como HTML:
 
 Procurar exemplo.
 
-Imagem inserida como rmarkdown:
+
+##### Imagem inserida como rmarkdown:
 
 ![Figura adicionada via rmarkdown: Jalapão, by Cristiano Nogueira](/Users/jpalencar/Desktop/obd/jalapao.png)
-Tabelas:
+
+#### Tabelas:
 
 Procurar estrutura.
 
-
+# To be continued...
