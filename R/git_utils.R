@@ -60,3 +60,6 @@ git push -u origin master
 # Creating random data ----------------------------------------------------
 
 rmarkdown::render_site()
+
+devtools::install_github("GabrielNakamura/Pacoteteste2", ref = "main") # para ler do github
+
