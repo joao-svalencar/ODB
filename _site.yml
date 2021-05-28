@@ -7,3 +7,5 @@ navbar:
       href: index.html
     - text: "Section two"
       href: new_section.html
+    - text: "Design"
+      href: design.html

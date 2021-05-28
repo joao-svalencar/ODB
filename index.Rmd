@@ -4,4 +4,4 @@ output: html_document
 ---
 # New index
 
-Agora que o index e as abas estão funcionando irei criar mais uma aba para treinar desing.
+Agora que o index e as abas estão funcionando irei criar mais uma aba para treinar design.
